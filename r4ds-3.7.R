@@ -1,2 +1,2 @@
 ggplot(data = diamonds) + 
-  geom_bar(mapping = aes(x = cut))
+  stat_count(mapping = aes(x = cut))
